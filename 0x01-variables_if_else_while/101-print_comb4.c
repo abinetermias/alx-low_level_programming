@@ -17,8 +17,15 @@ int main(void)
 			{
 				if (n > ch && m > n)
 				{
-					putchar(44);
-					putcahr(32);
+					putchar(ch);
+					putchar(n);
+					putchar(m);
+
+					if (ch != 56 || n != 57)
+					{
+						putchar(44);
+						putchar(32);
+					}
 				}
 			}
 		}
