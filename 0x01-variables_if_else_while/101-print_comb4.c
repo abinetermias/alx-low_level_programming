@@ -6,25 +6,25 @@
  */
 int main(void)
 {
-	int ch;
 	int n;
 	int m;
-	for (ch = 48; ch <= 57; ch ++)
+	int l;
+	for (n = 48; n <= 58; n ++)
 	{
-		for (n = 49; n <= 57; n++)
+		for (m = 49; m <= 58; m++)
 		{
-			for (m = 50; m <=57; n++)
+			for (l = 50; l < = 58; l++)
 			{
-				if (n > ch && m > n)
+				if (l > m && m > n)
 				{
-					putchar(ch);
 					putchar(n);
 					putchar(m);
+					putchar(l);
 
-					if (ch != 56 || n != 57)
+					if (n != 56 || m != 56)
 					{
-						putchar(44);
-						putchar(32);
+						putchar(',');
+						putchar(' ');
 					}
 				}
 			}
