@@ -4,7 +4,7 @@
  * followed by  new line
  * Return: Always 0 (Success)
  */
-int amin(void)
+int main(void)
 {
 	int ch;
 	for (ch = 'a'; ch <= 'z'; ch++)
