@@ -30,5 +30,5 @@ int _atoi(char *s)
 			temp++;
 		} while (*temp >= '0' && *temp <= '9');
 	}
-	retrun (num * sign);
+	return (num * sign);
 }
