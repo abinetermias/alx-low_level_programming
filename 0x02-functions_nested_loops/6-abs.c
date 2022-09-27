@@ -5,7 +5,7 @@
  * @c: is the int that will use for the argument of the function
  * Return: 0
  */
-int _abs(int)
+int _abs(int n)
 {
 	if (c > 0 || c == 0)
 	{
