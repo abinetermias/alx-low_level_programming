@@ -1,18 +1,18 @@
 #include "main.h"
 
 /**
- * _memset - Fills the block of memory
- * @s: starting address
- * @n: no of bytes
- * Return: Always 0
+ * _memset -> this memory set function
+ * @s: string
+ * @b: a charcter
+ * @n: an integer
+ * Return: a string
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	while (i < n)
-	{
-		*(s + i) = b;
-		i++;
-	
-	}
-	return (s);
+	unsigned int a;
+
+	for (a = 0; a < n; a++)
+		s[a] = b;
+
+	return (s);	
 }
